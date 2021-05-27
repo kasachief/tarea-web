@@ -5,6 +5,14 @@
     <meta name ="viewport" content = "width=device-width, initial-scale=1.0">
 </head>
 <body>
+<!-- The surrounding HTML is left untouched by FirebaseUI.
+     Your app may use that space for branding, controls and other customizations.-->
+     <h1>Welcome to My Awesome App</h1>
+     <div id="firebaseui-auth-container"></div>
+     <div id="loader">Loading...</div>
+     <script src="https://www.gstatic.com/firebasejs/ui/4.8.0/firebase-ui-auth.js"></script>
+<link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/4.8.0/firebase-ui-auth.css" />
+
     <form id="datos">
         <label for="Boleta">Boleta</label>
         <input type="text" name="Boleta" id="Boleta" placeholder="10 dígitos" required>
@@ -37,4 +45,7 @@
         Copyright 2021 Pedro Esteban Berumen Suárez
     </footer>
     <script> src="js/tarea.js"</script>
+    <script> src="login.js"</script>
+    <script> src="firebase.js"</script>
+    
 </body>
